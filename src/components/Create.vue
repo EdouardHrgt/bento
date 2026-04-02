@@ -16,7 +16,7 @@ span {
   font-style: italic;
 }
 img {
-    margin-top: 2rem;
-    width: 250px;
+    margin-top: 0rem;
+    width: 200px;
 }
 </style>

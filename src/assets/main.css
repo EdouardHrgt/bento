@@ -26,6 +26,7 @@ body {
   /* 5. Improve text rendering */
   -webkit-font-smoothing: antialiased;
   background-color: rgb(247, 251, 255);
+  
 }
 
 /* 6. Improve media defaults */
@@ -112,18 +113,24 @@ h2 {
 }
 
 .box {
-  max-width: 340px;
+  /* max-width: 340px; */
   width: 100%;
   border-radius: 8px;
   padding-inline: 1.5rem;
   padding-block: 1.5rem;
+  overflow: hidden;
 }
 
-@media (max-width: 770px) {
+
+
+@media (max-width: 900px) {
   :root {
     --body: 18px;
     --h1: 30px;
     --h2: 20px;
     --h3: 18px;
+  }
+  .box {
+    max-width: 340px;
   }
 }

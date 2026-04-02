@@ -18,6 +18,7 @@ h1 {
 }
 section {
   background-color: var(--purple-500);
+  width: 100%;
 }
 span {
   color: var(--yellow-500);
@@ -29,8 +30,8 @@ img {
   margin-inline: auto;
 }
 P {
-    font-size: var(--body);
-    color: var(--yellow-100);
-    text-align: center;
+  font-size: var(--body);
+  color: var(--yellow-100);
+  text-align: center;
 }
 </style>
